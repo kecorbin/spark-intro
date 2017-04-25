@@ -19,7 +19,7 @@ is designed to demonstrate some basic usage of the following:
 * requests
 
 
-## Setup
+## Installation
 
 ```
 git clone https://github.com/kecorbin/spark-intro
@@ -28,6 +28,13 @@ virtualenv venv
 source venv/bin/activate
 pip install -r requirements.text
 ```
+
+
+## Setup
+
+You will need a Spark account, you can sign up for free at https://ciscospark.com
+
+You will also need your spark token, which you can find by visiting https://developer.ciscospark.com and clicking your avatar in the upper right hand corner of the screen
 
 
 ## Running the sample script
