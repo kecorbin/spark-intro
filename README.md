@@ -36,6 +36,16 @@ You will need a Spark account, you can sign up for free at https://ciscospark.co
 
 You will also need your spark token, which you can find by visiting https://developer.ciscospark.com and clicking your avatar in the upper right hand corner of the screen
 
+Once you have this information, you will need to modify the following lines in (./spark-intro.py)
+
+```
+# Set your spark token here
+SPARK_TOKEN = "CHANGEME"
+
+# Change this to be the room name as it appears in your spark client
+SPARK_ROOM_NAME = "Demo Spark Room"
+```
+
 
 ## Running the sample script
 
